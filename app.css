@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+#app {
+  max-width: 30rem;
+  margin-inline: auto;
+}
+
 label,
 input,
 textarea {
@@ -26,7 +31,6 @@ textarea {
   font: inherit;
   padding: 0.2rem 0.4rem;
   width: 100%;
-  max-width: 30rem;
   border: 1px solid #ccc;
 }
 
